@@ -44,6 +44,4 @@ class BrowserEngine(object):
         driver.implicitly_wait(10)
         return driver
 
-    def quit_browser(self):
-        logger.info("关闭浏览器")
-        self.driver.quit()
+
