@@ -3,13 +3,12 @@ from codeframework.tools.logger import Logger
 logger = Logger(logger="BasePage").getlog()
 
 
-
 class BasePage(object):
     """
     定一个基类，所有的页面都需要继承此类，会在此类中，封装selenium很大一部分操作页面操作方法
     注意：
     1.所有页面创建的时候，都需要继承与此类
-    2.此类中的driver仅仅是变量，在所有页面创建的时候，需要导入selenium的webdriver，导入后方可使用本类中封装的方法
+    2.此类中的driver仅仅是变量，在所有页面创建的时候，需要先使用browser_engine.py打开页面，之后方可使用本类中封装的方法
     3.用以上的方法来确保前后操作driver的一致性（重要！）
     """
 
