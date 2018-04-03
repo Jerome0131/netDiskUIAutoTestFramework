@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import logging
 import time
 import os
@@ -5,34 +7,56 @@ import os
 
 class Logger(object):
 
-    def __init__(self, logger):
+    def __init__(self, logger_name, c_level=logging.DEBUG, f_level=logging.DEBUG):
         """
-        指定保存日志的文件路径，日志级别，以及调用文件
-            将日志存入到指定的文件中
-            :rtype: object
+        :param logger_name:
+        :param c_level:
+        :param f_level:
+        :return:
         """
-        # 创建一个logger
-        self.logger = logging.getLogger(logger)
+        self.logger = logging.getLogger(logger_name)
         self.logger.setLevel(logging.DEBUG)
 
-        # 创建一个handler，用于写入日志文件
-        rq = time.strptime('%Y%m%d%H%M', time.localtime(time.time()))  # 定义时间显示格式
-        log_path = os.path.dirname(os.getcwd()) + '/testresult/testlog/'
-        log_name = log_path + rq + '.log'
-        fh = logging.FileHandler(log_name)
-        fh.setLevel(logging.INFO)
-
-        # 创建一个handler，用于输出到控制台
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.INFO)
-
-        # 定义handler的输出格式
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+        # 设置CMD日志
+        sh = logging.StreamHandler()
+        sh.setFormatter(formatter)
+        sh.setLevel(c_level)
+
+        # 设置文件日志
+        fh = logging.FileHandler(get_log_name())
         fh.setFormatter(formatter)
-        ch.setFormatter(formatter)
+        fh.setLevel(f_level)
 
-        self.logger.addFilter(fh)
-        self.logger.addFilter(ch)
+        self.logger.addHandler(sh)
+        self.logger.addHandler(fh)
 
-    def getlog(self):
-        return self.logger
+    def debug(self, message):
+        self.logger.debug(message)
+
+    def info(self, message):
+        self.logger.info(message)
+
+    def war(self, message):
+        self.logger.warn(message)
+
+    def error(self, message):
+        self.logger.error(message)
+
+    def cri(self, message):
+        self.logger.critical(message)
+
+
+def get_log_name():
+        rq = time.strftime('%Y%m%d', time.localtime(time.time()))
+        log_path = os.path.abspath(os.path.join(os.getcwd(), '../..')) + '/testresult/testlog/'
+        log_name = log_path + rq + '.log'
+        if not os.path.exists(log_name):
+            f = open(log_name, 'w+')
+            f.close()
+        return log_name
+
+
+
+

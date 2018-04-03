@@ -1,6 +1,9 @@
-from codeframework.tools.logger import Logger
+# coding=utf-8
 
-logger = Logger(logger="BasePage").getlog()
+from codeframework.tools.logger import Logger
+from codeframework.baseoperation.browser_engine import BrowserEngine
+
+logger = Logger("BasePage")
 
 
 class BasePage(object):
@@ -15,6 +18,13 @@ class BasePage(object):
     def __init__(self, driver):
         self.driver = driver
 
+    # 打开url操作
+    def open_url(self, url, implicitly_wait_time):
+        self.driver.get(url);
+        logger.info("打开网址：%s" % url)
+        self.driver.maximize_window()
+        self.driver.implicitly_wait(implicitly_wait_time)
+
     # 退出浏览器操作
     def quit_browser(self):
         self.driver.quit()
@@ -28,3 +38,7 @@ class BasePage(object):
     def back(self):
         self.driver.back()
         logger.info("当前页面后退")
+
+if __name__ == '__main__':
+    driver = BrowserEngine().get_driver();
+    BasePage(driver).open_url('http://192.168.1.247', 10);
