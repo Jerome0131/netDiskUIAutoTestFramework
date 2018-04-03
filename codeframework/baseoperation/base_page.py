@@ -38,7 +38,3 @@ class BasePage(object):
     def back(self):
         self.driver.back()
         logger.info("当前页面后退")
-
-if __name__ == '__main__':
-    driver = BrowserEngine().get_driver();
-    BasePage(driver).open_url('http://192.168.1.247', 10);
