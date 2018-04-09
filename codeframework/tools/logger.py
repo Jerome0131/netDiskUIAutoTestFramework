@@ -1,5 +1,6 @@
 # coding=utf-8
 
+from resources.config import config
 import logging
 import time
 import os
@@ -50,8 +51,7 @@ class Logger(object):
 
 def get_log_name():
         rq = time.strftime('%Y%m%d', time.localtime(time.time()))
-        log_path = os.path.abspath(os.path.join(os.getcwd(), '../..')) + '/testresult/testlog/'
-        log_name = log_path + rq + '.log'
+        log_name = config.LOGGER_PATH + rq + '.log'
         if not os.path.exists(log_name):
             f = open(log_name, 'w+')
             f.close()
