@@ -7,8 +7,8 @@ from codeframework.pageobjects.loginpage import login_page_location
 
 
 class LoginPageKeywords(object):
-    def __init__(self, driver):
-        self._base_page = BasePage(driver)
+    def __init__(self, base_page):
+        self._base_page = base_page
 
     def verify_login_page_elements(self):
         # 验证登录界面包含企业网盘logo
@@ -36,7 +36,7 @@ class LoginPageKeywords(object):
 
     def click_login_button(self, implicitly_wait_time=config.IMPLICITLY_WAIT_TIME):
         # 点击登录按钮
-        self._base_page.click_button(login_page_location.login_button_login_btn)
+        self._base_page.click_element(login_page_location.login_button_login_btn)
         # 设置隐式等待时间
         self._base_page.set_implicitly_wait_time(implicitly_wait_time)
 

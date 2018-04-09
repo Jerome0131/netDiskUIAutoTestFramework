@@ -29,7 +29,7 @@ class BrowserEngine(object):
             logger.info("打开谷歌浏览器")
         elif browser == "IE":
             self.driver = webdriver.Ie(config.IE_DRIVER_PATH)
-            logger.info("打开火狐浏览器")
+            logger.info("打开IE浏览器")
         elif browser == "Firefox":
             self.driver = webdriver.Firefox(None, None, 30, None, None, config.FIREFOX_DRIVER_PATH)
             logger.info("打开火狐浏览器")

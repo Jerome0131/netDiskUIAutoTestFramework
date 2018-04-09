@@ -85,7 +85,6 @@ class ElementFinder(object):
             return self._find_by_xpath(driver, criteria, tag, constraints)
         return self._find_by_key_attrs(driver, criteria, tag, constraints)
 
-    @staticmethod
     def _get_tag_and_constraints(self, tag):
         if tag is None: return None, {}
 
@@ -115,7 +114,6 @@ class ElementFinder(object):
             tag = 'textarea'
         return tag, constraints
 
-    @staticmethod
     def _element_matches(self, element, tag, constraints):
         if not element.tag_name.lower() == tag:
             return False
@@ -131,7 +129,6 @@ class ElementFinder(object):
             lambda element: self._element_matches(element, tag, constraints),
             elements)
 
-    @staticmethod
     def _parse_locator(self, locator):
         prefix = None
         criteria = locator
@@ -142,7 +139,6 @@ class ElementFinder(object):
                 criteria = locator_parts[2].strip()
         return (prefix, criteria)
 
-    @staticmethod
     def _normalize_result(self, elements):
         if not isinstance(elements, list):
             logger.debug("WebDriver find returned %s" % elements)
