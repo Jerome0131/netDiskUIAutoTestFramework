@@ -12,3 +12,7 @@ login_username_placeholder_text = "请输入帐号"
 login_password_placeholder_text = "请输入密码"
 # 登录界面登录按钮
 login_login_btn_text = "登 录"
+# 登录界面错误提示：用户已被锁定
+login_error_lock_text = "用户已被锁定"
+# 登录界面错误提示：用户未被激活
+login_error_unactive_text = "用户未被激活"

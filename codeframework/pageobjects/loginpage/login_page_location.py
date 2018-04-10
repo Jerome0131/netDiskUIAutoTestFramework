@@ -16,3 +16,5 @@ login_input_password = "xpath=//input[@name='password']"
 login_button_login_btn = "xpath=//button[@class='btn-primary login-btn']"
 # 登录界面下载客户端
 login_div_client_title = "xpath=//div[@class='client-title']"
+# 登录界面错误提示
+login_div_login_error = "xpath=//div[@class='login-error none']"
