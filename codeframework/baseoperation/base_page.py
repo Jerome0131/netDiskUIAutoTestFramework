@@ -1,6 +1,8 @@
 # coding=utf-8
 
 from unittest import TestCase
+
+import time
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.remote.webelement import WebElement
@@ -190,3 +192,14 @@ class BasePage(object):
             logger.info("Wait page does not contains element '%s'" % locator)
         except TimeoutException:
             raise AssertionError(error)
+
+    # 截图方法并保存到screenshots目录下
+    def take_screenshot(self, screenpath=config.SCREENSHOTS_PATH):
+        rp = time.strftime('%Y%m%d', time.localtime(time.time()))
+        screenname = screenpath + rp + '.png'
+        try:
+            self.driver.get_screenshot_as_file(screenname)
+            logger.info("开始保存截图")
+
+        except Exception as e:
+            logger.info("出现异常", format(e))
