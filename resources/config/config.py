@@ -8,7 +8,7 @@ import os
 BROWSER = "Chrome"
 
 # 默认打开的URL
-URL = "http://192.168.1.247"
+URL = "http://192.168.1.170"
 # URL = "http://192.168.1.135"
 
 # 默认隐性等待时间（单位：秒）
@@ -26,8 +26,14 @@ LOGGER_PATH = os.path.join(PROJECT_PATH, "testresult/testlog")
 # 截屏文件所在路径
 SCREENSHOTS_PATH = os.path.join(PROJECT_PATH, "testresult/screenshots")
 
+# report所在路径
+REPORT_PATH = os.path.join(PROJECT_PATH, "testresult/report")
+
 # driver所在路径
 DRIVER_PATH = os.path.join(PROJECT_PATH, "resources/driver")
+
+# cases所在路径
+CASES_PATH = os.path.join(PROJECT_PATH, "codeframework/cases")
 
 # chromeDriver所在路径
 CHROME_DRIVER_PATH = os.path.join(DRIVER_PATH, 'chromedriver.exe')

@@ -37,9 +37,10 @@ class LoginPageKeywords(BasePage):
         # 设置隐式等待时间
         self.set_implicitly_wait_time(implicitly_wait_time)
 
-    def verify_login_failed(self, locker_or_unactiver=True):
+    def verify_login_failed(self, locker_or_unactiver=True, timeout=config.TIMEOUT):
         # locker_or_unactiver=True表示锁定用户登录
         # locker_or_unactiver=False表示未激活用户登录
+        self.wait_until_page_contains_element(login_page_location.login_div_login_error, timeout=timeout)
         if locker_or_unactiver:
             self.element_text_should_be(login_page_location.login_div_login_error, login_page_text.login_error_lock_text)
         else:

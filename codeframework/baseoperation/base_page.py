@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from codeframework.tools.logger import Logger
 from codeframework.baseoperation.element_finder import ElementFinder
 from resources.config import config
+from selenium.webdriver.support import expected_conditions as EC
 
 logger = Logger("BasePage")
 
@@ -172,7 +173,8 @@ class BasePage(object):
         if not error:
             error = "Element '%s' did not appear in '%s's." % (locator, timeout)
         try:
-            WebDriverWait(self.driver, timeout).until(self._is_element_present(locator, tag=tag))
+            WebDriverWait(self.driver, timeout).until(lambda x : self._element_finder.find(x, locator, tag=tag))
+            EC.presence_of_element_located
             logger.info("Wait page contains element '%s'." % locator)
         except TimeoutException:
             raise AssertionError(error)
@@ -182,7 +184,7 @@ class BasePage(object):
         if not error:
             error = "Element '%s' did not disappear in %s" % (locator, timeout)
         try:
-            WebDriverWait(self.driver, timeout).until_not(self._is_element_present(locator, tag=tag))
+            WebDriverWait(self.driver, timeout).until_not(lambda x : self._element_finder.find(x, locator, tag=tag))
             logger.info("Wait page does not contains element '%s'" % locator)
         except TimeoutException:
             raise AssertionError(error)
