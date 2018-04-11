@@ -4,7 +4,6 @@ from unittest import TestCase
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.support import expected_conditions as EC
 from codeframework.tools.logger import Logger
 from codeframework.baseoperation.element_finder import ElementFinder
 from resources.config import config
@@ -34,7 +33,8 @@ class BasePage(object):
             if required and len(elements) == 0:
                 raise ValueError("Element locator '" + locator + "' did not match any elements.")
             if first_only:
-                if len(elements) == 0: return None
+                if len(elements) == 0:
+                    return None
                 return elements[0]
         elif isinstance(locator, WebElement):
             elements = locator
@@ -68,7 +68,7 @@ class BasePage(object):
 
     # 打开url操作
     def open_url(self, url=config.URL, implicitly_wait_time=config.IMPLICITLY_WAIT_TIME):
-        self.driver.get(url);
+        self.driver.get(url)
         logger.info("open url '%s'" % url)
         self.driver.maximize_window()
         self.set_implicitly_wait_time(implicitly_wait_time)
@@ -97,15 +97,16 @@ class BasePage(object):
 
     # 验证元素包含文本
     def element_should_contain(self, locator, expected, message=''):
-        logger.info("Verifying element '%s' contains text '%s'." %(locator, expected))
+        logger.info("Verifying element '%s' contains text '%s'." % (locator, expected))
         actual = self._get_text(locator)
         if not message:
-            message = "Element '%s' should have contained text '%s' but its text was '%s'." % (locator, expected, actual)
+            message = "Element '%s' should have contained text '%s' but its text was '%s'." % (
+                locator, expected, actual)
         self._test_case.assertIn(expected, actual, message)
 
     # 验证元素不包含文本
     def element_should_not_contain(self, locator, expected, message=''):
-        logger.info("Verifying element '%s' does not contain text '%s'." %(locator, expected))
+        logger.info("Verifying element '%s' does not contain text '%s'." % (locator, expected))
         actual = self._get_text(locator)
         if not message:
             message = "Element '%s' should not contain text '%s' but it did." % (locator, expected)
@@ -115,14 +116,16 @@ class BasePage(object):
     def element_text_should_be(self, locator, expected, message=''):
         logger.info("Verifying element '%s' contains exactly text '%s'." % (locator, expected))
         actual = self._get_text(locator)
-        message = "The text of element '%s' should have been '%s' but in fact it was '%s'." % (locator, expected, actual)
+        message = "The text of element '%s' should have been '%s' but in fact it was '%s'." % (
+            locator, expected, actual)
         self._test_case.assertEqual(expected, actual, message)
 
     # 验证元素的属性值
     def element_attribute_should_be(self, locator, attribute_name, expected, tag=None, message=''):
         logger.info("Verifying element '%s' contains exactly attribute text '%s'." % (locator, expected))
         actual = self._get_element_attribute(locator, attribute_name, tag)
-        message = "The attribute text of element '%s' should have been '%s' but in fact it was '%s'." % (locator, expected, actual)
+        message = "The attribute text of element '%s' should have been '%s' but in fact it was '%s'." % (
+            locator, expected, actual)
         self._test_case.assertEqual(expected, actual, message)
 
     # 验证页面包含某元素
@@ -140,7 +143,6 @@ class BasePage(object):
                 message = "Page should not have contained element '%s'" % locator
             raise AssertionError(message)
         logger.info("Current page does not contain element '%s'." % locator)
-
 
     # 点击方法----------------------------------------------------------------------------------------------------------
 
@@ -173,7 +175,7 @@ class BasePage(object):
         if not error:
             error = "Element '%s' did not appear in '%s's." % (locator, timeout)
         try:
-            WebDriverWait(self.driver, timeout).until(lambda x : self._element_finder.find(x, locator, tag=tag))
+            WebDriverWait(self.driver, timeout).until(lambda x: self._element_finder.find(x, locator, tag=tag))
             EC.presence_of_element_located
             logger.info("Wait page contains element '%s'." % locator)
         except TimeoutException:
@@ -184,9 +186,7 @@ class BasePage(object):
         if not error:
             error = "Element '%s' did not disappear in %s" % (locator, timeout)
         try:
-            WebDriverWait(self.driver, timeout).until_not(lambda x : self._element_finder.find(x, locator, tag=tag))
+            WebDriverWait(self.driver, timeout).until_not(lambda x: self._element_finder.find(x, locator, tag=tag))
             logger.info("Wait page does not contains element '%s'" % locator)
         except TimeoutException:
             raise AssertionError(error)
-
-

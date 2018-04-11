@@ -3,19 +3,19 @@
 import os
 
 # 浏览器类型
-# BROWSER = "Firefox"
+BROWSER = "Firefox"
 # BROWSER = "IE"
-BROWSER = "Chrome"
+# BROWSER = "Chrome"
 
 # 默认打开的URL
-URL = "http://192.168.1.170"
+URL = "http://192.168.1.247"
 # URL = "http://192.168.1.135"
 
 # 默认隐性等待时间（单位：秒）
-IMPLICITLY_WAIT_TIME = 20;
+IMPLICITLY_WAIT_TIME = 5
 
 # 默认超时时间（单位：秒）
-TIMEOUT = 20;
+TIMEOUT = 20
 
 # 项目所在路径
 PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
@@ -43,4 +43,3 @@ IE_DRIVER_PATH = os.path.join(DRIVER_PATH, 'IEDriverServer.exe')
 
 # geckodriver所在路径
 FIREFOX_DRIVER_PATH = os.path.join(DRIVER_PATH, 'geckodriver.exe')
-

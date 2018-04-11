@@ -30,7 +30,7 @@ class ElementFinder(object):
 
         (prefix, criteria) = self._parse_locator(locator)
         prefix = 'default' if prefix is None else prefix
-        strategy = self.strategies.get(prefix);
+        strategy = self.strategies.get(prefix)
         if strategy is None:
             raise ValueError("Element locator with prefix '" + prefix + "' is not supported")
         (tag, constraints) = self._get_tag_and_constraints(tag)
@@ -86,7 +86,8 @@ class ElementFinder(object):
         return self._find_by_key_attrs(driver, criteria, tag, constraints)
 
     def _get_tag_and_constraints(self, tag):
-        if tag is None: return None, {}
+        if tag is None:
+            return None, {}
 
         tag = tag.lower()
         constraints = {}

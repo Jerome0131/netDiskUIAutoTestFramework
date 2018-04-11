@@ -1,12 +1,12 @@
 # coding=utf-8
 
 import unittest
-import time
 from codeframework.baseoperation.browser_engine import BrowserEngine
 from codeframework.pageobjects.loginpage.login_page_keywords import LoginPageKeywords
 
 
 class TestLoginCase002(unittest.TestCase):
+
     def setUp(self):
         self._login_page_keywords = LoginPageKeywords(BrowserEngine.get_instance().driver)
 
@@ -25,7 +25,6 @@ class TestLoginCase002(unittest.TestCase):
         self._login_page_keywords.click_login_button()
         self._login_page_keywords.verify_login_failed(False)
 
+
 if __name__ == '__main__':
     unittest.main
-
-

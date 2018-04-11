@@ -50,15 +50,11 @@ class Logger(object):
 
 
 def get_log_name():
-        rq = time.strftime('%Y%m%d', time.localtime(time.time()))
-        if not os.path.exists(config.LOGGER_PATH):
-            os.makedirs(config.LOGGER_PATH)
-        log_name = os.path.join(config.LOGGER_PATH, rq + ".log")
-        if not os.path.exists(log_name):
-            f = open(log_name, 'w+')
-            f.close()
-        return log_name
-
-
-
-
+    rq = time.strftime('%Y%m%d', time.localtime(time.time()))
+    if not os.path.exists(config.LOGGER_PATH):
+        os.makedirs(config.LOGGER_PATH)
+    log_name = os.path.join(config.LOGGER_PATH, rq + ".log")
+    if not os.path.exists(log_name):
+        f = open(log_name, 'w+')
+        f.close()
+    return log_name

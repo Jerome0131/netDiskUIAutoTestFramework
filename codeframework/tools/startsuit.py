@@ -5,7 +5,7 @@ import os
 
 from codeframework.baseoperation.base_page import BasePage
 from codeframework.baseoperation.browser_engine import BrowserEngine
-from codeframework.tools.html_test_runner import HTMLTestRunner
+from codeframework.tools import html_test_runner
 from resources.config import config
 
 
@@ -35,7 +35,7 @@ class StartSuit(object):
 
         filename = os.path.join(config.REPORT_PATH, "result" + now + ".html")
         fp = open(filename, 'wb')
-        runner = HTMLTestRunner(stream=fp, title='Report_title', description='Report_description')
+        runner = html_test_runner.HTMLTestRunner(stream=fp, title='登录测试', description='测一下会崩溃')
         runner.run(casesuit)
         fp.close()
 
