@@ -1,14 +1,15 @@
 # coding=utf-8
 
 import os
+import time
 
 # 浏览器类型
-BROWSER = "Firefox"
+# BROWSER = "Firefox"
 # BROWSER = "IE"
-# BROWSER = "Chrome"
+BROWSER = "Chrome"
 
 # 默认打开的URL
-URL = "http://192.168.1.247"
+URL = "http://192.168.1.170"
 # URL = "http://192.168.1.135"
 
 # 默认隐性等待时间（单位：秒）
@@ -23,11 +24,14 @@ PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 # 日志文件所在路径
 LOGGER_PATH = os.path.join(PROJECT_PATH, "testresult/testlog")
 
+# 取当前时间
+NOW = time.strftime("%Y%m%d%H%M", time.localtime(time.time()))
+
 # 截屏文件所在路径
-SCREENSHOTS_PATH = os.path.join(PROJECT_PATH, "testresult/screenshots")
+SCREENSHOTS_PATH = os.path.join(PROJECT_PATH, "testresult/screenshots/" + NOW)
 
 # report所在路径
-REPORT_PATH = os.path.join(PROJECT_PATH, "testresult/report")
+REPORT_PATH = os.path.join(PROJECT_PATH, "testresult/report/" + NOW)
 
 # driver所在路径
 DRIVER_PATH = os.path.join(PROJECT_PATH, "resources/driver")

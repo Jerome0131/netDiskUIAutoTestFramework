@@ -1,8 +1,7 @@
 # coding=utf-8
 
+import os
 from unittest import TestCase
-
-import time
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.remote.webelement import WebElement
@@ -178,7 +177,6 @@ class BasePage(object):
             error = "Element '%s' did not appear in '%s's." % (locator, timeout)
         try:
             WebDriverWait(self.driver, timeout).until(lambda x: self._element_finder.find(x, locator, tag=tag))
-            EC.presence_of_element_located
             logger.info("Wait page contains element '%s'." % locator)
         except TimeoutException:
             raise AssertionError(error)
@@ -194,12 +192,17 @@ class BasePage(object):
             raise AssertionError(error)
 
     # 截图方法并保存到screenshots目录下
-    def take_screenshot(self, screenpath=config.SCREENSHOTS_PATH):
-        rp = time.strftime('%Y%m%d', time.localtime(time.time()))
-        screenname = screenpath + rp + '.png'
+    def take_screenshot(self, current_file_path):
+        screen_path = os.path.join(config.SCREENSHOTS_PATH, os.path.basename(os.getcwd()))
+        if not os.path.exists(screen_path):
+            os.makedirs(screen_path)
+        i = 1
+        screen_name = os.path.basename(os.path.splitext(os.path.realpath(current_file_path))[0]) + "_"+ str(i) + '.png'
+        while os.path.exists(os.path.join(screen_path, screen_name)):
+            i = i + 1
+            screen_name = os.path.basename(os.path.splitext(os.path.realpath(current_file_path))[0]) + "_" + str(i) + '.png'
         try:
-            self.driver.get_screenshot_as_file(screenname)
-            logger.info("开始保存截图")
-
+            self.driver.get_screenshot_as_file(os.path.join(screen_path, screen_name))
+            logger.info("save screenshot name: '%s'" %screen_name)
         except Exception as e:
-            logger.info("出现异常", format(e))
+            logger.error(e)
