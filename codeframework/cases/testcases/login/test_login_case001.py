@@ -32,7 +32,3 @@ class TestLoginCase001(unittest.TestCase):
         except AssertionError as e:
             self._login_page_keywords.take_screenshot(__file__)
             raise AssertionError(e)
-
-
-if __name__ == '__main__':
-    unittest.main

@@ -2,8 +2,6 @@
 
 from codeframework.tools.startsuit import StartSuit
 from resources.config import config
-from codeframework.baseoperation.browser_engine import BrowserEngine
-from codeframework.baseoperation.base_page import BasePage
 
 if __name__ == "__main__":
     # 执行测试用例集并生成报告

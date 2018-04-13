@@ -193,7 +193,7 @@ class BasePage(object):
 
     # 截图方法并保存到screenshots目录下
     def take_screenshot(self, current_file_path):
-        screen_path = os.path.join(config.SCREENSHOTS_PATH, os.path.basename(os.getcwd()))
+        screen_path = os.path.join(config.SCREENSHOTS_PATH, os.path.basename((os.path.split(current_file_path)[0])))
         if not os.path.exists(screen_path):
             os.makedirs(screen_path)
         i = 1
