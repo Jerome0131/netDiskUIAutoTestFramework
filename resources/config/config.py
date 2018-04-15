@@ -36,9 +36,6 @@ REPORT_PATH = os.path.join(PROJECT_PATH, "testresult/report/" + NOW)
 # driver所在路径
 DRIVER_PATH = os.path.join(PROJECT_PATH, "resources/driver")
 
-# cases所在路径
-CASES_PATH = os.path.join(PROJECT_PATH, "codeframework/cases")
-
 # chromeDriver所在路径
 CHROME_DRIVER_PATH = os.path.join(DRIVER_PATH, 'chromedriver.exe')
 

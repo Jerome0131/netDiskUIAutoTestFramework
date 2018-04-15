@@ -1,5 +1,5 @@
 # coding:utf-8
-import time
+
 import unittest
 import os
 from codeframework.baseoperation.base_page import BasePage
@@ -36,7 +36,7 @@ class StartSuit(object):
         return test_suite
 
     @staticmethod
-    def init_report_run(test_suite, current_file_path, report_title="", report_description=""):
+    def execute_suite_generate_report(test_suite, current_file_path, report_title="", report_description=""):
         # 如果report目录不存在，则创建一个
         if not os.path.exists(config.REPORT_PATH):
             os.makedirs(config.REPORT_PATH)
@@ -50,3 +50,10 @@ class StartSuit(object):
     @staticmethod
     def quit_browser():
         BasePage(BrowserEngine.get_instance().driver).quit_browser()
+
+    @staticmethod
+    def execute_funcution_suite(cases_path, execute_suite_file_path, report_title, report_description=""):
+        StartSuit.init_driver()
+        test_suite = StartSuit.get_test_suite(cases_path)
+        StartSuit.excute_suite_generate_report(test_suite, execute_suite_file_path, report_title, report_description)
+        StartSuit.quit_browser()
