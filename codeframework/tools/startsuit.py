@@ -21,7 +21,7 @@ class StartSuit(object):
     def init_driver(url=config.URL, implicitly_wait_time=config.IMPLICITLY_WAIT_TIME):
         # 唯一创建driver入口
         BrowserEngine.get_instance().driver = BrowserEngine.get_driver()
-        BasePage(BrowserEngine.get_instance().driver).open_url(url=config.URL, implicitly_wait_time=config.IMPLICITLY_WAIT_TIME)
+        BasePage(BrowserEngine.get_instance().driver).open_url(url, implicitly_wait_time)
 
     @staticmethod
     def get_test_suite(cases_path, pattern='test_*.py', top_level_dir=None):
@@ -55,5 +55,5 @@ class StartSuit(object):
     def execute_funcution_suite(cases_path, execute_suite_file_path, report_title, report_description=""):
         StartSuit.init_driver()
         test_suite = StartSuit.get_test_suite(cases_path)
-        StartSuit.excute_suite_generate_report(test_suite, execute_suite_file_path, report_title, report_description)
+        StartSuit.execute_suite_generate_report(test_suite, execute_suite_file_path, report_title, report_description)
         StartSuit.quit_browser()
