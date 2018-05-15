@@ -33,5 +33,3 @@ class BrowserEngine(object):
             logger.info("打开火狐浏览器")
 
         return driver
-
-# BrowserEngine.get_instance().driver = get_driver()

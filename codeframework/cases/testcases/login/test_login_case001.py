@@ -1,34 +1,39 @@
 # coding=utf-8
 
 import unittest
-from codeframework.baseoperation.browser_engine import BrowserEngine
-from codeframework.pageobjects.loginpage.login_page_keywords import LoginPageKeywords
+from codeframework.pageobjects.page_object_tools import page_objects_tools
 
 
 class TestLoginCase001(unittest.TestCase):
 
     def setUp(self):
-        self._login_page_keywords = LoginPageKeywords(BrowserEngine.get_instance().driver)
+        pass
 
     def tearDown(self):
         pass
 
     def test_login_case_1(self):
         try:
-            self._login_page_keywords.verify_login_page_elements()
-            self._login_page_keywords.input_username_and_password("test", "123qwe")
-            self._login_page_keywords.click_login_button()
-            self._login_page_keywords.verify_login_failed(True)
+            page_objects_tools.login_page_keywords.verify_login_page_elements()
+            page_objects_tools.login_page_keywords.input_username_and_password("test", "123qwe")
+            page_objects_tools.login_page_keywords.click_login_button()
+            page_objects_tools.index_page_keywords.verify_index_page_elements()
+            page_objects_tools.index_page_keywords.click_user_image()
+            page_objects_tools.index_page_keywords.click_logout_button()
+            page_objects_tools.login_page_keywords.verify_login_page_elements()
         except AssertionError as e:
-            self._login_page_keywords.take_screenshot(__file__)
+            page_objects_tools.login_page_keywords.take_screenshot(__file__)
             raise AssertionError(e)
 
     def test_login_case_2(self):
         try:
-            self._login_page_keywords.verify_login_page_elements()
-            self._login_page_keywords.input_username_and_password("test1", "123qwe")
-            self._login_page_keywords.click_login_button()
-            self._login_page_keywords.verify_login_failed(False)
+            page_objects_tools.login_page_keywords.verify_login_page_elements()
+            page_objects_tools.login_page_keywords.input_username_and_password("lhq", "123qwe")
+            page_objects_tools.login_page_keywords.click_login_button()
+            page_objects_tools.index_page_keywords.verify_index_page_elements()
+            page_objects_tools.index_page_keywords.click_user_image()
+            page_objects_tools.index_page_keywords.click_logout_button()
+            page_objects_tools.login_page_keywords.verify_login_page_elements()
         except AssertionError as e:
-            self._login_page_keywords.take_screenshot(__file__)
+            page_objects_tools.login_page_keywords.take_screenshot(__file__)
             raise AssertionError(e)

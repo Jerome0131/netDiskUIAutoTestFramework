@@ -9,7 +9,7 @@ import time
 BROWSER = "Chrome"
 
 # 默认打开的URL
-URL = "http://192.168.1.170"
+URL = "http://192.168.1.247"
 # URL = "http://192.168.1.135"
 
 # 默认隐性等待时间（单位：秒）
