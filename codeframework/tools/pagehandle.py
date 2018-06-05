@@ -5,10 +5,10 @@ from codeframework.pageobjects.indexpage.index_page_keywords import IndexPageKey
 from codeframework.baseoperation.browser_engine import BrowserEngine
 
 
-class PageObjectsTools(object):
+class PageHandle(object):
     def __init__(self):
         self.login_page_keywords = LoginPageKeywords(BrowserEngine.get_instance().driver)
         self.index_page_keywords = IndexPageKeywords(BrowserEngine.get_instance().driver)
 
 
-page_objects_tools = PageObjectsTools()
+pagehandle = PageHandle()

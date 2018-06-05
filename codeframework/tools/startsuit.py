@@ -17,6 +17,7 @@ class StartSuit(object):
 
     testsuits包中所有的测试套件，都需要使用此工具类
     """
+
     @staticmethod
     def init_driver(url=config.URL, implicitly_wait_time=config.IMPLICITLY_WAIT_TIME):
         # 唯一创建driver入口
@@ -41,7 +42,8 @@ class StartSuit(object):
         if not os.path.exists(config.REPORT_PATH):
             os.makedirs(config.REPORT_PATH)
 
-        filename = os.path.join(config.REPORT_PATH, os.path.basename(os.path.splitext(os.path.realpath(current_file_path))[0]) + ".html")
+        filename = os.path.join(config.REPORT_PATH,
+                                os.path.basename(os.path.splitext(os.path.realpath(current_file_path))[0]) + ".html")
         fp = open(filename, 'wb')
         runner = html_test_runner.HTMLTestRunner(stream=fp, title=report_title, description=report_description)
         runner.run(test_suite)
