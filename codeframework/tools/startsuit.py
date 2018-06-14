@@ -56,6 +56,8 @@ class StartSuit(object):
     @staticmethod
     def execute_funcution_suite(cases_path, execute_suite_file_path, report_title, report_description=""):
         StartSuit.init_driver()
+        print(cases_path)
+        print(os.path.exists(cases_path))
         test_suite = StartSuit.get_test_suite(cases_path)
         StartSuit.execute_suite_generate_report(test_suite, execute_suite_file_path, report_title, report_description)
         StartSuit.quit_browser()

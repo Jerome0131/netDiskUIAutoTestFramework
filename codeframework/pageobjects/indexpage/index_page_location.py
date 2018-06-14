@@ -73,3 +73,20 @@ index_menu_ul_xmenu = "xpath=//ul[@id='xmenu']"
 # 操作下拉菜单中的退出按钮
 index_menu_span_logout = "xpath=//li[@name='logout']/span"
 
+# 操作下拉菜单中的系统管理按钮
+index_menu_span_admin = "xpath=//li[@name='admin']/span"
+
+# 新建下拉菜单中的新建文件夹
+index_menu_span_addfolder = "xpath=//li[@name='addfolder']/span"
+
+# 新建下拉菜单中的新建Word文档
+index_menu_span_newword = "xpath=//li[@name='newword']/span"
+
+# 新建下拉菜单中的新建excel表格
+index_menu_span_newexcel = "xpath=//li[@name='newexcel']/span"
+
+# 新建下拉菜单中的新建ppt演示
+index_menu_span_newppt = "xpath=//li[@name='newppt']/span"
+
+# 新建下拉菜单中的新建txt文本
+index_menu_span_newtxt = "xpath=//li[@name='newtxt']/span"

@@ -148,7 +148,7 @@ class BasePage(object):
     # 点击方法----------------------------------------------------------------------------------------------------------
 
     # 点击元素
-    def click_element(self, locator):
+    def click_element(self, locator: object) -> object:
         logger.info("Clicking element '%s'." % locator)
         self._element_find(locator, True, True).click()
 
@@ -172,7 +172,7 @@ class BasePage(object):
     # 显式等待方法------------------------------------------------------------------------------------------------------
 
     # 等待元素加载
-    def wait_until_page_contains_element(self, locator, tag=None, error=None, timeout=config.TIMEOUT):
+    def wait_until_page_contains_element(self, locator: object, tag: object = None, error: object = None, timeout: object = config.TIMEOUT) -> object:
         if not error:
             error = "Element '%s' did not appear in '%s's." % (locator, timeout)
         try:

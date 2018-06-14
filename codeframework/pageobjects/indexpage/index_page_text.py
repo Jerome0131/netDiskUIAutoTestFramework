@@ -42,3 +42,22 @@ index_received_share_text = "收到的分享"
 
 # 前台界面退出
 index_logout_text = "退出"
+
+# 前台界面系统管理
+index_admin_text = "系统管理"
+
+# 前台界面新建下拉菜单中的新建文件夹
+index_addfolder_text = "新建文件夹"
+
+# 前台界面新建下拉菜单中的新建Word文档
+index_newword_text = "新建Word文档"
+
+# 前台界面新建下拉菜单中的新建excel表格
+index_newexcel_text = "新建excel表格"
+
+# 前台界面新建下拉菜单中的新建ppt演示
+index_newppt_text = "新建ppt演示"
+
+# 前台界面新建下拉菜单中的新建txt文本
+index_newtxt_text = "新建txt文本"
+

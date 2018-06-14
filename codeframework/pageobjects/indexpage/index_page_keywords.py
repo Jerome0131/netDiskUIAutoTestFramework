@@ -64,3 +64,42 @@ class IndexPageKeywords(BasePage):
 
         # 点击退出按钮
         self.click_element(index_page_location.index_menu_span_logout)
+
+    def click_admin_button(self):
+        # 验证系统管理按钮的文本
+        self.element_text_should_be(index_page_location.index_menu_span_admin,index_page_text.index_admin_text)
+
+        # 点击系统管理按钮
+        self.click_element(index_page_location.index_menu_span_admin)
+
+
+    def click_person_file(self):
+        # 点击前台界面个人文件
+        self.click_element(index_page_location.index_span_person_file)
+
+    def click_newMenu_button(self):
+        #等到页面包含新建按钮
+        self.wait_until_page_contains_element(index_page_location.index_span_newMenuBtn)
+        #点击前台新建按钮
+        self.click_element(index_page_location.index_span_newMenuBtn)
+
+    def verify_create_menu(self):
+        #验证新建下来菜单新建文件夹按钮的文本
+        self.element_text_should_be(index_page_location.index_menu_span_addfolder,index_page_text.index_addfolder_text)
+
+        #验证新建下来菜单新建Word文档按钮的文本
+        self.element_text_should_be(index_page_location.index_menu_span_newword,index_page_text.index_newword_text)
+
+        # 验证新建下来菜单新建excle表格按钮的文本
+        self.element_text_should_be(index_page_location.index_menu_span_newexcel, index_page_text.index_newexcel_text)
+
+        # 验证新建下来菜单新建ppt演示按钮的文本
+        self.element_text_should_be(index_page_location.index_menu_span_newppt, index_page_text.index_newppt_text)
+
+        # 验证新建下来菜单新建Word文档按钮的文本
+        self.element_text_should_be(index_page_location.index_menu_span_newtxt, index_page_text.index_newtxt_text)
+
+    def click_addfolder_button(self):
+        # 点击新建文件夹按钮
+        self.click_element(index_page_location.index_menu_span_addfolder)
+
