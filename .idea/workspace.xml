@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c904dee5-c141-433d-b906-53a3c351f98c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeframework/pageobjects/indexpage/index_page_keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeframework/pageobjects/indexpage/index_page_keywords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeframework/pageobjects/indexpage/index_page_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeframework/pageobjects/indexpage/index_page_location.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeframework/testsuits/run_all_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeframework/testsuits/run_all_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config/cases_path_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/cases_path_conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/config.py" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +26,20 @@
     <favorites_list name="netDiskUIAutoTestFramework" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="upload_suite.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codeframework/testsuits/upload_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#16#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -663,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528958476507</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.增加了createfile套件及用例">
+      <created>1529025720932</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529025720932</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -675,7 +690,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="332" y="240" width="1216" height="812" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32873806" />
@@ -684,7 +700,7 @@
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.116504855" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46601942" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34083045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -745,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="67" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#16#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,16 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeframework/testsuits/upload_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#16#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeframework/testsuits/run_all_cases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -965,9 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="67" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,9 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,8 +1016,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeframework/testsuits/upload_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#67#0" expanded="true" />
           </folding>
         </state>
       </provider>

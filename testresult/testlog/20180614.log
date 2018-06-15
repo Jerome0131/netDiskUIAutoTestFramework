@@ -1,0 +1,396 @@
+2018-06-14 14:18:39,836 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:18:40,254 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:18:41,438 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:18:41,470 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:18:41,570 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:18:41,637 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:18:41,692 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:18:41,693 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:18:42,214 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:18:42,248 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:18:42,276 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:18:42,303 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:18:42,326 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:18:42,350 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:18:42,373 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:18:42,399 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:18:42,424 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:18:42,437 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:18:42,461 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:18:42,484 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:18:42,509 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:18:42,579 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:18:42,580 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:18:42,613 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:18:42,988 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:18:51,259 - BasePage - INFO - quit browser
+2018-06-14 14:18:55,780 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:18:56,231 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:18:57,421 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:19:37,881 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:19:38,350 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:19:39,523 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:19:39,540 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:19:39,678 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:19:39,747 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:19:39,797 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:19:39,798 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:19:40,336 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:19:40,372 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:19:40,395 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:19:40,422 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:19:40,445 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:19:40,468 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:19:40,492 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:19:40,516 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:19:40,543 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:19:40,557 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:19:40,581 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:19:40,609 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:19:40,635 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:19:40,702 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:19:40,702 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:19:40,732 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:19:44,281 - BasePage - INFO - quit browser
+2018-06-14 14:19:48,797 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:19:49,256 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:19:50,431 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:21:22,412 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:21:22,904 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:21:24,068 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:21:24,086 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:21:24,186 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:21:24,251 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:21:24,303 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:21:24,303 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:21:24,857 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:21:24,890 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:21:24,915 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:21:24,938 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:21:24,965 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:21:24,990 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:21:25,015 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:21:25,041 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:21:25,067 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:21:25,080 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:21:25,103 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:21:25,127 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:21:25,152 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:21:25,218 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:21:25,218 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:21:25,248 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:21:28,827 - BasePage - INFO - quit browser
+2018-06-14 14:21:33,329 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:21:33,811 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:21:34,990 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:21:58,943 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:21:59,285 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:22:00,463 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:22:00,469 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:22:00,565 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:22:00,635 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:22:00,691 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:22:00,691 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:22:01,205 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:22:01,331 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:22:01,398 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:22:01,451 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:22:01,486 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:22:01,522 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:22:01,563 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:22:01,601 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:22:01,637 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:22:01,655 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:22:01,688 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:22:01,712 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:22:01,747 - BasePage - INFO - Wait page contains element 'xpath=//button[@id='newMenuBtn']/span'.
+2018-06-14 14:22:01,747 - BasePage - INFO - Clicking element 'xpath=//button[@id='newMenuBtn']/span'.
+2018-06-14 14:22:01,796 - BasePage - INFO - Verifying element 'xpath=//li[@name='addfolder']/span' contains exactly text '新建文件夹'.
+2018-06-14 14:22:01,829 - BasePage - INFO - Verifying element 'xpath=//li[@name='newword']/span' contains exactly text '新建Word文档'.
+2018-06-14 14:22:01,853 - BasePage - INFO - Verifying element 'xpath=//li[@name='newexcel']/span' contains exactly text '新建excel表格'.
+2018-06-14 14:22:01,879 - BasePage - INFO - Verifying element 'xpath=//li[@name='newppt']/span' contains exactly text '新建ppt演示'.
+2018-06-14 14:22:01,904 - BasePage - INFO - Verifying element 'xpath=//li[@name='newtxt']/span' contains exactly text '新建txt文本'.
+2018-06-14 14:22:01,931 - BasePage - INFO - Clicking element 'xpath=//li[@name='addfolder']/span'.
+2018-06-14 14:22:25,056 - BasePage - INFO - quit browser
+2018-06-14 14:22:43,244 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:22:43,714 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:22:44,894 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:22:44,908 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:22:45,009 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:22:45,082 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:22:45,137 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:22:45,138 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:22:45,644 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:22:45,691 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:22:45,715 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:22:45,738 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:22:45,763 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:22:45,789 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:22:45,812 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:22:45,835 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:22:45,863 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:22:45,875 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:22:45,898 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:22:45,922 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:22:45,949 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:22:46,016 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:22:46,017 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:22:46,043 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:22:49,585 - BasePage - INFO - quit browser
+2018-06-14 14:22:54,117 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:22:54,533 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:22:55,725 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:23:24,594 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:23:25,021 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:23:26,199 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:23:26,208 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:23:26,325 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:23:26,395 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:23:26,446 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:23:26,446 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:23:27,237 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:23:27,280 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:23:27,315 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:23:27,355 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:23:27,384 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:23:27,467 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:23:27,503 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:23:27,538 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:23:27,586 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:23:27,607 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:23:27,650 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:23:27,689 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:23:27,771 - BasePage - INFO - Wait page contains element 'xpath=//button[@id='newMenuBtn']/span'.
+2018-06-14 14:23:27,771 - BasePage - INFO - Clicking element 'xpath=//button[@id='newMenuBtn']/span'.
+2018-06-14 14:23:27,859 - BasePage - INFO - Verifying element 'xpath=//li[@name='addfolder']/span' contains exactly text '新建文件夹'.
+2018-06-14 14:23:27,892 - BasePage - INFO - Verifying element 'xpath=//li[@name='newword']/span' contains exactly text '新建Word文档'.
+2018-06-14 14:23:27,924 - BasePage - INFO - Verifying element 'xpath=//li[@name='newexcel']/span' contains exactly text '新建excel表格'.
+2018-06-14 14:23:27,953 - BasePage - INFO - Verifying element 'xpath=//li[@name='newppt']/span' contains exactly text '新建ppt演示'.
+2018-06-14 14:23:27,978 - BasePage - INFO - Verifying element 'xpath=//li[@name='newtxt']/span' contains exactly text '新建txt文本'.
+2018-06-14 14:23:28,002 - BasePage - INFO - Clicking element 'xpath=//li[@name='addfolder']/span'.
+2018-06-14 14:23:51,086 - BasePage - INFO - quit browser
+2018-06-14 14:24:02,477 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:24:02,832 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:24:04,008 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:24:04,014 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:24:04,112 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:24:04,178 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:24:04,232 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:24:04,233 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:24:05,078 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:24:05,123 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:24:05,149 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:24:05,174 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:24:05,198 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:24:05,221 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:24:05,245 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:24:05,271 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:24:05,298 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:24:05,310 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:24:05,334 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:24:05,359 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:24:05,383 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:24:05,451 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:24:05,451 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:24:05,481 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:24:09,034 - BasePage - INFO - quit browser
+2018-06-14 14:24:13,621 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:24:14,071 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:24:15,246 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:27:41,954 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:27:42,368 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:27:43,555 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:27:43,565 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:27:43,678 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:27:43,746 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:27:43,799 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:27:43,799 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:27:44,327 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:27:44,370 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:27:44,393 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:27:44,417 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:27:44,442 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:27:44,466 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:27:44,490 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:27:44,513 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:27:44,541 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:27:44,555 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:27:44,578 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:27:44,602 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:27:44,626 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:27:44,696 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:27:44,696 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:27:44,727 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:27:48,301 - BasePage - INFO - quit browser
+2018-06-14 14:27:52,826 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:27:53,273 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:27:54,425 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:31:56,555 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:31:57,024 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:31:58,201 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:31:58,210 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:31:58,310 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:31:58,381 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:31:58,436 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:31:58,437 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:31:58,977 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:31:59,018 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:31:59,045 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:31:59,068 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:31:59,092 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:31:59,116 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:31:59,139 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:31:59,164 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:31:59,188 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:31:59,201 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:31:59,225 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:31:59,251 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:31:59,275 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:31:59,343 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:31:59,343 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:31:59,375 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:32:02,939 - BasePage - INFO - quit browser
+2018-06-14 14:32:07,487 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:32:07,972 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:32:09,155 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:34:13,968 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:34:14,414 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:34:15,590 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:34:15,601 - BasePage - INFO - Typing text 'admin' into text field 'xpath=//input[@name='username']'
+2018-06-14 14:34:15,704 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 14:34:15,772 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 14:34:15,826 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 14:34:15,826 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 14:34:16,324 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 14:34:16,363 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 14:34:16,388 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 14:34:16,414 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 14:34:16,437 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 14:34:16,460 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 14:34:16,484 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 14:34:16,509 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:34:16,534 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 14:34:16,549 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 14:34:16,572 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 14:34:16,598 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 14:34:16,623 - BasePage - INFO - Clicking element 'xpath=//img[@class='user-logo']'.
+2018-06-14 14:34:16,689 - BasePage - INFO - Wait page contains element 'xpath=//ul[@id='xmenu']'.
+2018-06-14 14:34:16,689 - BasePage - INFO - Verifying element 'xpath=//li[@name='admin']/span' contains exactly text '系统管理'.
+2018-06-14 14:34:16,718 - BasePage - INFO - Clicking element 'xpath=//li[@name='admin']/span'.
+2018-06-14 14:34:20,283 - BasePage - INFO - quit browser
+2018-06-14 14:34:24,792 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 14:34:25,201 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 14:34:26,372 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:04:49,293 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 15:04:49,786 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 15:04:50,948 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:04:50,963 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 15:04:51,048 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 15:04:51,126 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 15:04:51,182 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:04:51,182 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 15:04:51,853 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 15:04:51,941 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 15:04:52,008 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 15:04:52,069 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 15:04:52,123 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 15:04:52,174 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 15:04:52,270 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 15:04:52,369 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:04:52,400 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:04:52,410 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 15:04:52,434 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 15:04:52,463 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 15:04:52,502 - BasePage - INFO - Wait page contains element 'xpath=//button[@id='newMenuBtn']/span'.
+2018-06-14 15:04:52,502 - BasePage - INFO - Clicking element 'xpath=//button[@id='newMenuBtn']/span'.
+2018-06-14 15:04:52,556 - BasePage - INFO - Verifying element 'xpath=//li[@name='addfolder']/span' contains exactly text '新建文件夹'.
+2018-06-14 15:04:52,588 - BasePage - INFO - Verifying element 'xpath=//li[@name='newword']/span' contains exactly text '新建Word文档'.
+2018-06-14 15:04:52,619 - BasePage - INFO - Verifying element 'xpath=//li[@name='newexcel']/span' contains exactly text '新建excel表格'.
+2018-06-14 15:04:52,644 - BasePage - INFO - Verifying element 'xpath=//li[@name='newppt']/span' contains exactly text '新建ppt演示'.
+2018-06-14 15:04:52,668 - BasePage - INFO - Verifying element 'xpath=//li[@name='newtxt']/span' contains exactly text '新建txt文本'.
+2018-06-14 15:04:52,692 - BasePage - INFO - Clicking element 'xpath=//li[@name='addfolder']/span'.
+2018-06-14 15:05:15,891 - BasePage - INFO - quit browser
+2018-06-14 15:40:23,295 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 15:40:23,847 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 15:40:25,016 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:40:25,047 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 15:40:25,171 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 15:40:25,259 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 15:40:25,319 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:40:25,319 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 15:40:25,961 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 15:40:26,092 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 15:40:26,173 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 15:40:26,237 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 15:40:26,276 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 15:40:26,327 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 15:40:26,386 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 15:40:26,421 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:40:26,450 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:40:26,462 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 15:40:26,488 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 15:40:26,520 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 15:40:29,768 - BasePage - INFO - quit browser
+2018-06-14 15:41:17,339 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 15:41:17,842 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 15:41:18,975 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:41:18,995 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 15:41:19,089 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 15:41:19,175 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 15:41:19,241 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:41:19,241 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 15:41:19,845 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 15:41:19,969 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 15:41:20,026 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 15:41:20,080 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 15:41:20,129 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 15:41:20,177 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 15:41:20,226 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 15:41:20,264 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:41:20,312 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:41:20,328 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 15:41:20,354 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 15:41:20,379 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 15:41:23,610 - BasePage - INFO - quit browser
+2018-06-14 15:42:20,906 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 15:42:21,374 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 15:42:22,556 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:42:22,584 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 15:42:22,690 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 15:42:22,781 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 15:42:22,870 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:42:22,870 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 15:42:23,570 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 15:42:23,690 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 15:42:23,725 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 15:42:23,770 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 15:42:23,810 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 15:42:23,854 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 15:42:23,892 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 15:42:23,935 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:42:23,976 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:42:24,006 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 15:42:24,042 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 15:42:24,075 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 15:42:27,315 - BasePage - INFO - quit browser
+2018-06-14 15:47:43,393 - BrowserEngine - INFO - 打开谷歌浏览器
+2018-06-14 15:47:43,854 - BasePage - INFO - open url 'http://192.168.1.247'
+2018-06-14 15:47:45,053 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:47:45,087 - BasePage - INFO - Typing text '貔貅1' into text field 'xpath=//input[@name='username']'
+2018-06-14 15:47:45,199 - BasePage - INFO - Typing text '123qwe' into text field 'xpath=//input[@name='password']'
+2018-06-14 15:47:45,283 - BasePage - INFO - Clicking element 'xpath=//button[@class='btn-primary login-btn']'.
+2018-06-14 15:47:45,342 - BasePage - INFO - set implicitly wait time 5
+2018-06-14 15:47:45,342 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/../../div' contains exactly text '文档访问'.
+2018-06-14 15:47:45,974 - BasePage - INFO - Verifying element 'xpath=//li[@name='fs']/span' contains exactly text '个人文件'.
+2018-06-14 15:47:46,101 - BasePage - INFO - Verifying element 'xpath=//li[@name='grouplist']/span' contains exactly text '群组文件'.
+2018-06-14 15:47:46,160 - BasePage - INFO - Verifying element 'xpath=//li[@name='coop']/span' contains exactly text '协同文件'.
+2018-06-14 15:47:46,207 - BasePage - INFO - Verifying element 'xpath=//li[@name='recycle']/span' contains exactly text '回收站'.
+2018-06-14 15:47:46,247 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/../../div' contains exactly text '快捷访问'.
+2018-06-14 15:47:46,295 - BasePage - INFO - Verifying element 'xpath=//li[@name='recent']/span' contains exactly text '常用文件'.
+2018-06-14 15:47:46,332 - BasePage - INFO - Verifying element 'xpath=//li[@name='favorite']/span' contains exactly text '我的收藏'.
+2018-06-14 15:47:46,382 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:47:46,433 - BasePage - INFO - Verifying element 'xpath=//li[@name='subscribe']/span' contains exactly text '我的订阅'.
+2018-06-14 15:47:46,447 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/../../div' contains exactly text '共享管理'.
+2018-06-14 15:47:46,476 - BasePage - INFO - Verifying element 'xpath=//li[@name='link']/span' contains exactly text '我的分享'.
+2018-06-14 15:47:46,500 - BasePage - INFO - Verifying element 'xpath=//li[@name='receive']/span' contains exactly text '收到的分享'.
+2018-06-14 15:47:49,739 - BasePage - INFO - quit browser
