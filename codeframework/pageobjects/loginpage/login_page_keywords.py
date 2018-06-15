@@ -15,8 +15,6 @@ class LoginPageKeywords(BasePage):
         # 验证登录界面当前语种类型的文本
         self.element_text_should_be(login_page_location.login_span_language,
                                     login_page_text.login_current_language_text)
-        # 验证登录界面欢迎登录的文本
-        self.element_text_should_be(login_page_location.login_div_login_title, login_page_text.login_welcome_login_text)
         # 验证登录界面账号框的placeholder属性值
         self.element_attribute_should_be(login_page_location.login_input_username, "placeholder",
                                          login_page_text.login_username_placeholder_text)

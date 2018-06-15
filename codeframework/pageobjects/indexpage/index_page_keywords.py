@@ -55,6 +55,8 @@ class IndexPageKeywords(BasePage):
         # 点击前台界面用户头像
         self.click_element(index_page_location.index_img_user_logo)
 
+        self.focus(index_page_location.index_img_user_logo)
+
         # 等待操作下拉加载出来
         self.wait_until_page_contains_element(index_page_location.index_menu_ul_xmenu)
 
@@ -71,7 +73,6 @@ class IndexPageKeywords(BasePage):
 
         # 点击系统管理按钮
         self.click_element(index_page_location.index_menu_span_admin)
-
 
     def click_person_file(self):
         # 点击前台界面个人文件

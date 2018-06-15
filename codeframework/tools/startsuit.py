@@ -6,6 +6,7 @@ from codeframework.baseoperation.base_page import BasePage
 from codeframework.baseoperation.browser_engine import BrowserEngine
 from codeframework.tools import html_test_runner
 from resources.config import config
+from resources.config import cases_path_conf
 
 
 class StartSuit(object):
@@ -25,7 +26,7 @@ class StartSuit(object):
         BasePage(BrowserEngine.get_instance().driver).open_url(url, implicitly_wait_time)
 
     @staticmethod
-    def get_test_suite(cases_path, pattern='test_*.py', top_level_dir=None):
+    def get_test_suite(cases_path, pattern='test_*.py', top_level_dir=cases_path_conf.CASES_PATH):
         test_suite = unittest.TestSuite()
         # discover 方法定义
         discover = unittest.defaultTestLoader.discover(cases_path, pattern, top_level_dir)
@@ -56,8 +57,6 @@ class StartSuit(object):
     @staticmethod
     def execute_funcution_suite(cases_path, execute_suite_file_path, report_title, report_description=""):
         StartSuit.init_driver()
-        print(cases_path)
-        print(os.path.exists(cases_path))
         test_suite = StartSuit.get_test_suite(cases_path)
         StartSuit.execute_suite_generate_report(test_suite, execute_suite_file_path, report_title, report_description)
         StartSuit.quit_browser()

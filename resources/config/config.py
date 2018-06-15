@@ -37,10 +37,10 @@ REPORT_PATH = os.path.join(PROJECT_PATH, "testresult/report/" + NOW)
 DRIVER_PATH = os.path.join(PROJECT_PATH, "resources/driver")
 
 # 上传file所在文件夹路径
-FILE_PATH = os.path.join(PROJECT_PATH,"resources/file")
+FILE_PATH = os.path.join(PROJECT_PATH, "resources/file")
 
 # ee.docx所在路径
-XLS_File_PATH = os.path.join(FILE_PATH,'ee.docx')
+XLS_File_PATH = os.path.join(FILE_PATH, 'ee.docx')
 
 # chromeDriver所在路径
 CHROME_DRIVER_PATH = os.path.join(DRIVER_PATH, 'chromedriver.exe')

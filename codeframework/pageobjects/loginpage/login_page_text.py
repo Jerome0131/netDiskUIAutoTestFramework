@@ -6,9 +6,6 @@ login_help_center_text = "帮助中心"
 # 登录界面当前语言
 login_current_language_text = "简体中文"
 
-# 登录界面欢迎登录
-login_welcome_login_text = "欢迎登录"
-
 # 登录界面账号框弱提示
 login_username_placeholder_text = "请输入帐号"
 

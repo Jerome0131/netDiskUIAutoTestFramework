@@ -9,6 +9,7 @@ from codeframework.tools.logger import Logger
 from codeframework.baseoperation.element_finder import ElementFinder
 from resources.config import config
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 
 logger = Logger("BasePage")
 
@@ -169,8 +170,11 @@ class BasePage(object):
         element.clear()
         element.send_keys(text)
 
-    # 显式等待方法------------------------------------------------------------------------------------------------------
+    def focus(self, locator):
+        element = self._element_find(locator, True, True)
+        ActionChains(self.driver).move_to_element(element).perform()
 
+    # 显式等待方法------------------------------------------------------------------------------------------------------
     # 等待元素加载
     def wait_until_page_contains_element(self, locator: object, tag: object = None, error: object = None, timeout: object = config.TIMEOUT) -> object:
         if not error:

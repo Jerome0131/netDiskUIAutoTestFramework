@@ -9,6 +9,3 @@ class PageHandle(object):
     def __init__(self):
         self.login_page_keywords = LoginPageKeywords(BrowserEngine.get_instance().driver)
         self.index_page_keywords = IndexPageKeywords(BrowserEngine.get_instance().driver)
-
-
-pagehandle = PageHandle()
