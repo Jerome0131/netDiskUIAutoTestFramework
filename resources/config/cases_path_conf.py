@@ -16,3 +16,6 @@ Login_CASES_PATH = os.path.join(TESTCASES_PATH, "login")
 
 # 新建文件功能测试用例所在路径
 Createfile_CASES_PATH = os.path.join(TESTCASES_PATH, "createfile")
+
+# 新建文件功能测试用例所在路径
+UPLOAD_CASES_PATH = os.path.join(TESTCASES_PATH, "upload")

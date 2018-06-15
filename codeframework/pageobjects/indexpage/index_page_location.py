@@ -90,3 +90,7 @@ index_menu_span_newppt = "xpath=//li[@name='newppt']/span"
 
 # 新建下拉菜单中的新建txt文本
 index_menu_span_newtxt = "xpath=//li[@name='newtxt']/span"
+
+
+
+

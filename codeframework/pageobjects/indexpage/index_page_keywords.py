@@ -103,3 +103,8 @@ class IndexPageKeywords(BasePage):
         # 点击新建文件夹按钮
         self.click_element(index_page_location.index_menu_span_addfolder)
 
+    def uploadfile(self,filepath):
+        #上传文件，path是文件路径
+        self._element_find(index_page_location.index_div_uploadfile).send_keys(filepath)
+
+
